@@ -16,7 +16,7 @@
                 <tr>
                     <td scope="row">{{ loop.index }}</td>
                     <td>{{ video.name }}</td>
-                    <td></td>
+                    <td><a href="{{ path('videos', {video: loop.index}) }}">Link</a></td>
                 </tr>
             {% endfor %}
         </tbody>

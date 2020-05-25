@@ -4,3 +4,4 @@ index:
 videos:
     path: /videos/{video}
     controller: App\Controller\VideoController::index
+   
